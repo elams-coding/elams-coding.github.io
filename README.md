@@ -39,7 +39,7 @@ assets/
 
 ## 📷 Aperçu
 
-> [Lien vers mon portfolio](elams-coding.github.io)
+> [Lien vers mon portfolio](https://elams-coding.github.io/)
 
 ---
 
