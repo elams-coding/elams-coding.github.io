@@ -5,7 +5,20 @@ body {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    header {
+        h1 {
+            color: yellow;
+        }
+
+        nav {
+            ul {
+                user-select: none;
+                list-style: none;
+            }
+        }
+    }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}
