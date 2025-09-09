@@ -1,9 +1,9 @@
 html,
 body {
     background-color: #fff;
-    color: #000;
-    margin: 300px;
-    padding: 0;
+    margin: 0;
+    padding: 300px;
+    color: red;
 }
 
 /* Extra small devices (phones, 600px and down) */
