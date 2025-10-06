@@ -42,3 +42,9 @@ assets/
 > [Lien vers mon portfolio](https://elams-coding.github.io/)
 
 ---
+
+## 📄 Licence
+
+Ce projet est libre d’utilisation à des fins personnelles ou éducatives.
+
+---
