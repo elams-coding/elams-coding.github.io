@@ -9,6 +9,7 @@
         content="Mon portfolio, hébergé sur GitHub Pages. Il présente mes projets, compétences et expériences académiques et professionnelles">
     <link rel="alternate" hreflang="fr" href="https://elams-coding.github.io/">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,81 +17,13 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body class="page-container">
     <?php
     include __DIR__ . "/assets/includes/header.php";
     ?>
 
-    <div>
-        <h3>Salut ! Je suis El Amine 👋</h3>
+    <main class="content-wrap">
 
-        <p>
-            Bienvenue sur mon portfolio ! Je suis un étudiant passionné par le développement d'application web et
-            mobile.
-            <br>
-            Ce site est une vitrine de mes projets, de mes compétences et de mon parcours.
-        </p>
-
-        <h3> Ce que vous trouverez ici</h3>
-
-        <ul>
-            <li><strong>Mes Projets :</strong> Une sélection de mes travaux, avec des descriptions claires et les
-                technologies utilisées.</li>
-            <li><strong>Mes compétences :</strong> La liste des languages de programmation, outils que je maîtrise.
-                Ainsi que d'autres compétences que j'ai développé lors de mes différentes formations.</li>
-            <li><strong>Mon Parcours :</strong> Un aper&ccedil;u de ma formation et mon expérience professionnelle.</li>
-        </ul>
-    </div>
-
-    <h3>Liens utiles <span>(vers mes profils)</span></h3>
-
-    <div>
-        <a href="https://github.com/elams-coding" title="Lien vers mon profils GitHub">
-            <img src="assets/media/img/logo/GitHub_Logo.png" alt="Logo de GitHub">
-        </a>
-        <a href="https://discord.com/users/1280435655817691189" title="Lien vers mon Discord">
-            <img src="assets/media/img/logo/Discord-Logo-Black.png" alt="Logo de Discord">
-        </a>
-        <a href="https://www.linkedin.com/in/el-amine-mahamoud-2914ba358" title="Lien vers mon profil LinkedIn">
-            <img src="assets/media/img/logo/LI-Logo.png" alt="Logo de LinkedIn">
-        </a>
-    </div>
-
-    <main>
-        <section id="projetsBox">
-            <h2>Projets</h2>
-        </section>
-
-        <section id="competencesBox">
-            <h2>Comp&eacute;tences</h2>
-        </section>
-
-        <section id="parcoursBox">
-            <h2>Parcours</h2>
-
-            <div>
-                <button><abbr title="Brevet de Technicien Supérieur">BTS</abbr> <abbr
-                        title="Services Informatiques aux Organisations">SIO</abbr></button>
-                <p>Option <abbr title="Solutions Logicielles et Applications Métiers">SLAM</abbr></p>
-                <p>Lycée Polyvalent Chevrollier, Angers 49000</p>
-            </div>
-
-            <div>
-                <button><abbr title="Bachelor Universitaire de Technologie">BUT</abbr> Informatique</button>
-                <p>Parcours A : Réalisation d'application</p>
-                <p><abbr title="Institut Universitaire de Technologie">IUT</abbr> de Laval
-                    <span>2024 - 2025</span>
-                </p>
-            </div>
-
-            <div>
-                <button>Baccalauréat</button>
-                <p>Spécialité Mathématiques & <abbr title="Sciences de la Vie et de la Terre">SVT</abbr></p>
-                <p>Lycée Polyvalent Chevrollier, Angers 49000
-                    <span>2021 - 2024</span>
-                </p>
-            </div>
-        </section>
     </main>
 
     <?php

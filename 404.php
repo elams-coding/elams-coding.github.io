@@ -8,6 +8,7 @@
     <meta name="description" content="Page d'erreur">
     <link rel="alternate" hreflang="fr" href="https://elams-coding.github.io/">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,8 +16,17 @@
         rel="stylesheet">
 </head>
 
-<body>
-    <p>La page que vous recherchez n'existe pas</p>
+<body class="page-container">
+    <?php
+        include __DIR__ . "/assets/includes/header.php";
+    ?>
+
+    <main class="content-wrap">
+    </main>
+
+    <?php
+    include __DIR__ . "/assets/includes/footer.php";
+    ?>
 </body>
 
 </html>
