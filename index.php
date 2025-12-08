@@ -17,22 +17,9 @@
 </head>
 
 <body>
-    <header>
-        <h1>Elams-coding's Portfolio</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#projetsBox">Projets</a>
-                </li>
-                <li>
-                    <a href="#competencesBox">Comp&eacute;tences</a>
-                </li>
-                <li>
-                    <a href="#parcoursBox">Parcours</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <?php
+    include __DIR__ . "/assets/includes/header.php";
+    ?>
 
     <div>
         <h3>Salut ! Je suis El Amine 👋</h3>
@@ -106,15 +93,9 @@
         </section>
     </main>
 
-    <footer>
-        <div>
-            <a href="https://github.com/elams-coding">GitHub</a>
-            <a href="https://discord.com/users/1280435655817691189">Discord</a>
-            <a href="https://www.linkedin.com/in/el-amine-mahamoud-2914ba358">LinkedIn</a>
-        </div>
-
-        <p>&copy; Elams-coding, 2025 - France</p>
-    </footer>
+    <?php
+    include __DIR__ . "/assets/includes/footer.php";
+    ?>
 </body>
 
 </html>
