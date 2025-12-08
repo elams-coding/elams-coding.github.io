@@ -12,7 +12,8 @@ body {
 }
 
 header,
-footer {
+footer,
+#container-cons {
     flex-shrink: 0;
     display: flex;
 }
@@ -41,6 +42,16 @@ header>h1 {
 .logo {
     width: 25px;
     height: auto;
+}
+
+footer {
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-cons {
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 /* Extra small devices (phones, 600px and down) */
