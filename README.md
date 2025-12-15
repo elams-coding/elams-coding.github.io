@@ -10,13 +10,12 @@ Bienvenue sur mon portfolio personnel, développé avec les fondamentaux du web 
 index.html # Page d'accueil
 404.html # Page d'erreur
 pages/ # Sous-pages
-assets/
+assets/ #
 |___css/ # Feuilles de style
 |___js/ # Scripts JavaScript
 |___media/ # Contenus multimédias
     |___img/ # Images
-    |___vid/ # Vidéos
-    |___audio/ # Sons
+        |___logo/ # Logos
 ```
 
 ---
