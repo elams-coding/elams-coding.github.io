@@ -20,6 +20,7 @@
 <body class="page-container">
     <?php
     include __DIR__ . "/assets/includes/header.php";
+    include __DIR__ . "/assets/includes/menu.php";
     ?>
 
     <main class="content-wrap">
