@@ -45,9 +45,14 @@ body {
 }
 
 .logo {
-    width: 33px;
+    width: 33px !important;
+    height: fit-content !important;
 }
 
 .s-dot {
     border: 1px dotted black;
+}
+
+.list-no-p {
+    padding-left: 0;
 }
