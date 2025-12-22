@@ -17,19 +17,19 @@
 </head>
 
 <body class="d-flex flex-column w-100 marmelad-regular">
-    <header class="container-xxl d-flex flex-shrink-0 flex-row align-items-center">
+    <header class="container-xxl d-flex flex-shrink-0 flex-row align-items-center pt-2">
         <img id="my-icon" src="/assets/media/img/logo/logo.png" alt="Logo de El Amine">
-        <h1 id="title" class="z-n1 text-nowrap m-0 position-absolute">elams-coding</h1>
+        <h1 id="title" class="h1 z-n1 text-nowrap m-0 position-absolute">elams-coding</h1>
     </header>
 
     <main class="flex-grow-1">
 
     </main>
 
-    <footer class="container-xxl flex-shrink-0">
+    <footer class="container-xxl d-flex flex-shrink-0 flex-column align-items-center">
         <div id="f-box-p" class="container-xxl p-0 d-flex flex-row gap-3">
             <div class="container">
-                <h2 class="text-center">Me joindre</h2>
+                <h2 class="h2 text-center">Me joindre</h2>
                 <ul class="list-unstyled">
                     <li>
                         <a class="d-flex" href="https://www.linkedin.com/in/el-amine-mahamoud-2914ba358/">
@@ -37,12 +37,14 @@
                             <span class="w-100 text-end">LinkedIn</span>
                         </a>
                     </li>
+                    <hr class="s-dot">
                     <li>
                         <a class="d-flex" href="https://github.com/elams-coding">
                             <img class="logo" src="/assets/media/img/logo/github.png" alt="Logo de GitHub">
                             <span class="w-100 text-end">GitHub</span>
                         </a>
                     </li>
+                    <hr class="s-dot">
                     <li>
                         <a class="d-flex" href="https://discord.com/users/1280435655817691189">
                             <img class="logo" src="/assets/media/img/logo/discord.png" alt="Logo de Discord">
@@ -51,11 +53,29 @@
                     </li>
                 </ul>
             </div>
+
             <div class="container">
-                <h2 class="text-center">Structure</h2>
+                <h2 class="h2 text-center">Ressources</h2>
+                <div class="d-flex flex-column gap-2">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="mb-1">Mon CV</p>
+                        <a class="btn btn-outline-primary w-50 text-break"
+                            href="/resources/CV - Mahamoud El Amine - Public.pdf"
+                            download="mahamoud_el-amine_cv">Télécharger le CV</a>
+
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="mb-1">Certifications</p>
+                        <button class="btn btn-outline-primary w-50 text-break">Voir les certifications</button>
+                    </div>
+                </div>
             </div>
+
             <div class="container">
-                <h2 class="text-center">Mentions légales</h2>
+                <h2 class="h2 text-center">Mentions légales</h2>
+                <div class="d-flex flex-column">
+                    <a href="/pages/mentions-legales.html">Mentions légales</a>
+                </div>
             </div>
         </div>
 
