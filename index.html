@@ -22,33 +22,42 @@
         <h1 id="title" class="h1 z-n1 text-nowrap m-0 position-absolute">elams-coding</h1>
     </header>
 
+    {% include assets/_includes/header.html %}
+
     <main class="flex-grow-1">
 
     </main>
 
     <footer class="container-xxl d-flex flex-shrink-0 flex-column align-items-center">
         <div id="f-box-p" class="container-xxl p-0 d-flex flex-row gap-3">
-            <div class="container">
+            <div class="container d-flex flex-column align-items-center">
                 <h2 class="h2 text-center">Me joindre</h2>
-                <ul class="list-unstyled">
+                <ul class="list-unstyled w-75">
+                    <li><a class="d-flex" href="mailto:noah.mahamoud49@icloud.com">
+                            <img class="logo" src="/assets/media/img/mail_33dp_000000_FILL1_wght300_GRAD0_opsz40.png"
+                                alt="Icône de mail">
+                            <span class="w-100 text-end text-break">noah.mahamoud49(at)gmail.com</span>
+                        </a>
+                    </li>
+                    <hr class="s-dot">
                     <li>
                         <a class="d-flex" href="https://www.linkedin.com/in/el-amine-mahamoud-2914ba358/">
                             <img class="logo" src="/assets/media/img/logo/linkedin.png" alt="Logo de LinkedIn">
-                            <span class="w-100 text-end">LinkedIn</span>
+                            <span class="w-100 text-end text-break">LinkedIn</span>
                         </a>
                     </li>
                     <hr class="s-dot">
                     <li>
                         <a class="d-flex" href="https://github.com/elams-coding">
                             <img class="logo" src="/assets/media/img/logo/github.png" alt="Logo de GitHub">
-                            <span class="w-100 text-end">GitHub</span>
+                            <span class="w-100 text-end text-break">GitHub</span>
                         </a>
                     </li>
                     <hr class="s-dot">
                     <li>
                         <a class="d-flex" href="https://discord.com/users/1280435655817691189">
                             <img class="logo" src="/assets/media/img/logo/discord.png" alt="Logo de Discord">
-                            <span class="w-100 text-end">Discord</span>
+                            <span class="w-100 text-end text-break">Discord</span>
                         </a>
                     </li>
                 </ul>
@@ -71,15 +80,29 @@
                 </div>
             </div>
 
-            <div class="container">
-                <h2 class="h2 text-center">Mentions légales</h2>
-                <div class="d-flex flex-column">
-                    <a href="/pages/mentions-legales.html">Mentions légales</a>
+            <div class="container d-flex flex-column">
+                <div class="container">
+                    <h2 class="h2 text-center">Plan du site</h2>
+                    <ul class="list-no-p">
+                        <!-- TODO : ajouter le lien vers l'accueil -->
+                        <li><a href="">Accueil</a></li>
+                        <!-- TODO : ajouter le lien vers les projets -->
+                        <li><a href="">Projets</a></li>
+                        <!-- TODO : ajouter le lien vers les compétences -->
+                        <li><a href="">Compétences</a></li>
+                        <!-- TODO : ajouter le lien vers la section à propos -->
+                        <li><a href="">A propos</a></li>
+                    </ul>
+                </div>
+
+                <div class="container">
+                    <h2 class="h2 text-center">Mentions légales</h2>
+                    <a class="d-block text-center" href="/pages/mentions-legales.html">Mentions légales</a>
                 </div>
             </div>
         </div>
 
-        <div class="text-center">
+        <div class="text-center font-monospace w-100">
             <p class="m-0">&copy; 2025 - elams-coding</p>
             <p class="mb-2">Tous droits réservés.</p>
         </div>
