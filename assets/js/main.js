@@ -8,7 +8,7 @@ window.addEventListener("scroll", () => {
     if (!isTicking) {
         window.requestAnimationFrame(() => {
             const currentScroll = window.scrollY;
-            const threshold = 100;
+            const threshold = 50;
 
             if (currentScroll <= 0) {
                 mainHeader.classList.remove("scroll-down");
