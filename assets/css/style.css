@@ -35,14 +35,6 @@ body {
     font-style: italic;
 }
 
-#main-header {
-    transition: transform 0.5s ease-in-out;
-}
-
-#main-header.scroll-down {
-    transform: translateY(-105%);
-}
-
 #my-icon {
     width: 50px !important;
 }
