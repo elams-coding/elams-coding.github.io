@@ -40,7 +40,7 @@ body {
 }
 
 #main-header.scroll-down {
-    transform: translateY(-100%);
+    transform: translateY(-105%);
 }
 
 #my-icon {
