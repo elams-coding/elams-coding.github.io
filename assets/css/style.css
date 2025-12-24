@@ -53,8 +53,8 @@ body {
 }
 
 .logo {
-    width: 33px !important;
-    height: fit-content !important;
+    max-width: 33px !important;
+    max-height: fit-content !important;
 }
 
 .s-dot {
