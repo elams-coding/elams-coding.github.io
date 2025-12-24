@@ -14,7 +14,7 @@ window.addEventListener("scroll", () => {
     if (!isTicking) {
         window.requestAnimationFrame(() => {
             const currentScroll = window.scrollY;
-            const threshold = 50;
+            const threshold = 30;
 
             if (currentScroll <= 0 || currentScroll <= lastScroll) {
                 header.classList.remove(usedClass);
@@ -32,6 +32,7 @@ window.addEventListener("scroll", () => {
 
 
 const main = document.getElementById("main-block")
+
 /**
  * Position the main block correctly after the header.
  * ---
@@ -43,7 +44,7 @@ function FixMainPosition() {
     const extraSpace = 45;
     const unit = "px";
 
-    main.style.top = headerHeight + extraSpace + unit;
+    main.style.marginTop = headerHeight + extraSpace + unit;
 }
 
 window.addEventListener("load", FixMainPosition);
