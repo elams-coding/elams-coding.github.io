@@ -54,7 +54,7 @@ body {
 
 .logo {
     max-width: 33px !important;
-    max-height: fit-content !important;
+    height: 33px !important;
 }
 
 .s-dot {
