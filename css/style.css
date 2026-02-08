@@ -1,3 +1,44 @@
 .mh-75px {
     max-height: 75px !important;
 }
+
+.toggle-theme {
+    border-radius: 50px;
+    border: 1px solid;
+    width: 40px;
+    height: 22px;
+}
+
+.thumb {
+    top: 1px;
+    left: 1px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: lightgray;
+    transition: transform .25s !important;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.icon .bi {
+    width: 12px;
+    height: 12px;
+    transition: opacity .25s !important;
+}
+
+.toggle-theme.checked .thumb {
+    transform: translate(18px);
+}
+
+.toggle-theme.checked .bi-brightness-high {
+    opacity: 0 !important;
+}
+
+.toggle-theme.checked .bi-moon {
+    opacity: 1 !important;
+}
