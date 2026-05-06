@@ -7,7 +7,7 @@ hero:
   name: "Portfolio"
   text: "MAHAMOUD El&nbsp;Amine."
   tagline: "Etudiant en BTS SIO"
-  image: "./assets/img/elams-logo.png"
+  image: "/assets/img/elams-logo.png"
   actions:
     - theme: brand
       text: "GitHub"
