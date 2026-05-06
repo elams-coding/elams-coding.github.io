@@ -3,7 +3,12 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Portfolio",
-  description: ".",
+  titleTemplate: true,
+  description: "Portfolio de MAHAMOUD El Amine, étudiant en BTS SIO.",
+  head: [["link", { "rel": "icon", "href": "img/elams-logo.png" }]],
+  lang: "fr-FR",
+  cleanUrls: true,
+  assetsDir: "assets",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
