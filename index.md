@@ -28,5 +28,7 @@ features:
   - title: "Parcours et formation"
     details: "Étudiant en BTS SIO, spécialité SLAM (Solutions Logicielles et Applications Métiers), avec un parcours initial en BUT Informatique."
     icon: "🧳"
+    link: "/pages/parcours"
+    linkText: "Voir les parcours"
 ---
 
