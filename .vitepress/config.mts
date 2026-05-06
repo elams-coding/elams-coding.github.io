@@ -13,7 +13,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Accueil', link: '/' },
-      { text: 'Compétences', link: '/pages/competences' }
+      { text: 'Compétences', link: '/pages/competences' },
+      { text: 'Parcours', link: '/pages/parcours' }
     ],
 
     sidebar: [
@@ -22,6 +23,14 @@ export default defineConfig({
         items: [
           { text: 'Compétences Humaines', link: '/pages/competences-humaines' },
           { text: 'Compétences Techniques', link: '/pages/competences-techniques' }
+        ]
+      },
+      {
+        text: 'Parcours',
+        items: [
+          { text: 'Formations', link: '/pages/formations' },
+          { text: 'Expériences Professionnelles', link: '/pages/experiences-pro' }
+
         ]
       }
     ],
