@@ -1,0 +1,69 @@
+/* ======================================
+   Styles personnalisés — Pages Doc
+   ====================================== */
+
+/* Titre H1 avec soulignement accent */
+.vp-doc h1 {
+  position: relative;
+  padding-bottom: 0.65rem;
+  margin-bottom: 1.75rem;
+}
+
+.vp-doc h1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 52px;
+  height: 3px;
+  background: var(--vp-c-brand-1);
+  border-radius: 2px;
+}
+
+/* Labels de section H3 (badge style) */
+.vp-doc h3 {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  margin-top: 2.25rem;
+  margin-bottom: 1rem;
+  border-bottom: none;
+}
+
+/* Supprime les puces par défaut */
+.vp-doc ul {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Carte de compétence */
+.vp-doc ul li {
+  padding: 0.85rem 1.25rem;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-left: 4px solid var(--vp-c-brand-1);
+  border-radius: 0 8px 8px 0;
+  line-height: 1.7;
+  transition: transform 0.18s ease, background 0.18s ease, border-left-color 0.18s ease;
+}
+
+.vp-doc ul li:hover {
+  transform: translateX(6px);
+  background: var(--vp-c-bg-mute);
+  border-left-color: var(--vp-c-brand-2, var(--vp-c-brand-1));
+}
+
+/* Nom de la compétence en gras */
+.vp-doc ul li strong {
+  color: var(--vp-c-text-1);
+}
