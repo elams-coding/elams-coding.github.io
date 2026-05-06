@@ -1,0 +1,8 @@
+# NodeJS modules
+node_modules/
+
+# dev server cache
+.vitepress/cache
+
+# build output directory
+.vitepress/dist
