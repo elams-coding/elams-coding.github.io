@@ -31,19 +31,19 @@ const isCompetences = computed(() => page.value.relativePath === 'pages/competen
     <p class="aside-panel__title">Catégories</p>
     <ul class="aside-panel__list">
       <li class="aside-panel__item aside-panel__item--link">
-        <a href="#développement-web">Développement web</a>
+        <a href="#developpement-web">Développement web</a>
       </li>
       <li class="aside-panel__item aside-panel__item--link">
-        <a href="#développement-applicatif">Développement applicatif</a>
+        <a href="#developpement-applicatif">Développement applicatif</a>
       </li>
       <li class="aside-panel__item aside-panel__item--link">
-        <a href="#bases-de-données">Bases de données</a>
+        <a href="#bases-de-donnees">Bases de données</a>
       </li>
       <li class="aside-panel__item aside-panel__item--link">
         <a href="#gestion-de-projet">Gestion de projet</a>
       </li>
       <li class="aside-panel__item aside-panel__item--link">
-        <a href="#déploiement-et-infrastructure">Déploiement et infra</a>
+        <a href="#deploiement-et-infrastructure">Déploiement et infra</a>
       </li>
       <li class="aside-panel__item aside-panel__item--link">
         <a href="#outils-et-environnements">Outils et environnements</a>
