@@ -1,18 +1,20 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+titleTemplate: "Accueil"
+
 
 hero:
   name: "Portfolio"
-  text: "Portfolio de MAHAMOUD El Amine, étudiant en BTS SIO."
-  tagline: My great project tagline
+  text: "MAHAMOUD El Amine."
+  tagline: Etudiant en BTS SIO
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: GitHub
+      link: https://github.com/elams-coding
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: LinkedIn
+      link: https://www.linkedin.com/in/el-amine-mahamoud-2914ba358/
 
 features:
   - title: Feature A
