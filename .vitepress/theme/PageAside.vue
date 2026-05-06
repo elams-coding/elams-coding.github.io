@@ -1,11 +1,44 @@
 <script setup lang="ts">
 import { useData } from 'vitepress'
-import { computed } from 'vue'
+import { computed, ref, onMounted, onUnmounted } from 'vue'
 
 const { page } = useData()
 
 const isFormations = computed(() => page.value.relativePath === 'pages/formations.md')
 const isCompetences = computed(() => page.value.relativePath === 'pages/competences-techniques.md')
+
+const activeSection = ref('')
+
+const sectionIds = [
+  'developpement-web',
+  'developpement-applicatif',
+  'bases-de-donnees',
+  'gestion-de-projet',
+  'deploiement-et-infrastructure',
+  'outils-et-environnements'
+]
+
+function updateActiveSection() {
+  const offset = 130
+  let current = ''
+  for (const id of sectionIds) {
+    const el = document.getElementById(id)
+    if (el && el.getBoundingClientRect().top <= offset) {
+      current = id
+    }
+  }
+  activeSection.value = current
+}
+
+onMounted(() => {
+  if (!isCompetences.value) return
+  window.addEventListener('scroll', updateActiveSection, { passive: true })
+  updateActiveSection()
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', updateActiveSection)
+})
 </script>
 
 <template>
@@ -31,22 +64,22 @@ const isCompetences = computed(() => page.value.relativePath === 'pages/competen
     <p class="aside-panel__title">Catégories</p>
     <ul class="aside-panel__list">
       <li class="aside-panel__item aside-panel__item--link">
-        <a href="#developpement-web">Développement web</a>
+        <a href="#developpement-web" :class="{ 'is-active': activeSection === 'developpement-web' }">Développement web</a>
       </li>
       <li class="aside-panel__item aside-panel__item--link">
-        <a href="#developpement-applicatif">Développement applicatif</a>
+        <a href="#developpement-applicatif" :class="{ 'is-active': activeSection === 'developpement-applicatif' }">Développement applicatif</a>
       </li>
       <li class="aside-panel__item aside-panel__item--link">
-        <a href="#bases-de-donnees">Bases de données</a>
+        <a href="#bases-de-donnees" :class="{ 'is-active': activeSection === 'bases-de-donnees' }">Bases de données</a>
       </li>
       <li class="aside-panel__item aside-panel__item--link">
-        <a href="#gestion-de-projet">Gestion de projet</a>
+        <a href="#gestion-de-projet" :class="{ 'is-active': activeSection === 'gestion-de-projet' }">Gestion de projet</a>
       </li>
       <li class="aside-panel__item aside-panel__item--link">
-        <a href="#deploiement-et-infrastructure">Déploiement et infra</a>
+        <a href="#deploiement-et-infrastructure" :class="{ 'is-active': activeSection === 'deploiement-et-infrastructure' }">Déploiement et infra</a>
       </li>
       <li class="aside-panel__item aside-panel__item--link">
-        <a href="#outils-et-environnements">Outils et environnements</a>
+        <a href="#outils-et-environnements" :class="{ 'is-active': activeSection === 'outils-et-environnements' }">Outils et environnements</a>
       </li>
     </ul>
   </div>
@@ -139,5 +172,10 @@ const isCompetences = computed(() => page.value.relativePath === 'pages/competen
 
 .aside-panel__item--link a:hover {
   color: var(--vp-c-brand-1);
+}
+
+.aside-panel__item--link a.is-active {
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
 }
 </style>
