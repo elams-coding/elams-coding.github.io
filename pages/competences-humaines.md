@@ -2,10 +2,7 @@
 layout: "doc"
 title: "Portfolio"
 titleTemplate: "Compétences Humaines"
-
-prev:
-    text: "Compétences"
-    link: "./competences"
+prev: false
 ---
 
 # Compétences Humaines
