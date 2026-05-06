@@ -1,6 +1,6 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-layout: home
+layout: "home"
 titleTemplate: "Accueil"
 
 hero:
@@ -11,17 +11,22 @@ hero:
   actions:
     - theme: brand
       text: "GitHub"
-      link: https://github.com/elams-coding
+      link: "https://github.com/elams-coding"
     - theme: alt
       text: "LinkedIn"
-      link: https://www.linkedin.com/in/el-amine-mahamoud-2914ba358/
+      link: "https://www.linkedin.com/in/el-amine-mahamoud-2914ba358/"
 
 features:
   - title: "Compétences techniques"
-    details: "Développement d'application web avec les technologies HTML, CSS, JS et PHP. <br> Développement d'application bureau avec Java ou C#. <br> Gestion et administration de bases de données."
+    details: "Développement d’applications web avec HTML, CSS, JavaScript et PHP. Développement d’applications de bureau en Java et C#. Gestion et administration de bases de données (MySQL/MariaDB, SQL Server)."
+    icon: "🛠️"
+    link: "/pages/competences-techniques"
+    linkText: "Voir les compétences techniques"
   - title: "Projets réalisés"
-    details: "Réalisation de projets académiques : sites web, applications bureau et console durant mes années de formations avec quelques expériences professionnels."
-  - title: "Parcours et formations"
-    details: "Etudiant en BTS SIO avec une spécialisation SLAM (Solutions Logicielles et Applications Métiers) et ancien étudiant de BUT&nbsp;Informatique."
+    details: "Réalisation de projets académiques variés : sites web, applications de bureau et programmes console, développés durant ma formation, avec une première expérience en milieu professionnel."
+    icon: "🖥️"
+  - title: "Parcours et formation"
+    details: "Étudiant en BTS SIO, spécialité SLAM (Solutions Logicielles et Applications Métiers), avec un parcours initial en BUT Informatique."
+    icon: "🧳"
 ---
 
