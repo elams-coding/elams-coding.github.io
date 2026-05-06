@@ -12,16 +12,16 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Accueil', link: '/' },
+      { text: 'Compétences', link: '/pages/competences' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Compétences',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Compétences Humaines', link: '/pages/competences-humaines' },
+          { text: 'Compétences Techniques', link: '/pages/competences-techniques' }
         ]
       }
     ],
