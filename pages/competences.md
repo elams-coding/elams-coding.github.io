@@ -1,6 +1,9 @@
 ---
 layout: "doc"
 titleTemplate: "Compétences"
+next:
+    text: "Compétences Humaines"
+    link: "./competences-humaines"
 ---
 
 # Mes compétences
