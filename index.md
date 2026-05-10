@@ -25,6 +25,8 @@ features:
   - title: "Projets réalisés"
     details: "Réalisation de projets académiques variés : sites web, applications de bureau et programmes console, développés durant ma formation, avec une première expérience en milieu professionnel."
     icon: "🖥️"
+    link: "/pages/projets"
+    linkText: "Voir les projets"
   - title: "Parcours et formation"
     details: "Étudiant en BTS SIO, spécialité SLAM (Solutions Logicielles et Applications Métiers), avec un parcours initial en BUT Informatique."
     icon: "🧳"
