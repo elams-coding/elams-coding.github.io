@@ -1,6 +1,9 @@
 ---
 layout: "doc"
 titleTemplate: "Expériences professionnelles"
+next:
+  text: "Projets"
+  link: "./projets"
 ---
 
 # Expériences professionnelles
