@@ -14,7 +14,8 @@ export default defineConfig({
     nav: [
       { text: 'Accueil', link: '/' },
       { text: 'Compétences', link: '/pages/competences' },
-      { text: 'Parcours', link: '/pages/parcours' }
+      { text: 'Parcours', link: '/pages/parcours' },
+      { text: 'Projets', link: '/pages/projets' }
     ],
 
     sidebar: [
@@ -31,6 +32,13 @@ export default defineConfig({
           { text: 'Formations', link: '/pages/formations' },
           { text: 'Expériences Professionnelles', link: '/pages/experiences-pro' }
 
+        ]
+      },
+      {
+        text: 'Projets',
+        items: [
+          { text: 'Projets Académiques', link: '/pages/projets-academiques' },
+          { text: 'Projets Personnels', link: '/pages/projets-personnels' }
         ]
       }
     ],
