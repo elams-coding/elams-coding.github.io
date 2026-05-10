@@ -2,6 +2,9 @@
 layout: "doc"
 title: "Portfolio"
 titleTemplate: "Compétences Techniques"
+next:
+    text: "Parcours"
+    link: "./parcours"
 ---
 
 # Compétences Techniques
